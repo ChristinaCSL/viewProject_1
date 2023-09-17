@@ -61,6 +61,8 @@ Route::resource('user/roles', UserController::class);
 
 Route::get('/activity',[ActivityController::class,'index']);
 
+Route::get('/activityTest',[ActivityController::class,'index']);
+
 
 
 
