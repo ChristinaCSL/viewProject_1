@@ -65,6 +65,8 @@ Route::get('/activityTest',[ActivityController::class,'index']);
 
 Route::get('/activityTest2',[ActivityController::class,'index']);
 
+Route::get('/activityTest3',[ActivityController::class,'index']);
+
 
 
 
